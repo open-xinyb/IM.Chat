@@ -1,0 +1,62 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, input, form {
+    font-family: 'Microsoft YaHei', '宋体';
+    font-size: 14px;
+    color: #333;
+    outline: none;
+}
+.chat-container {
+    width:422px;
+    margin: 5px 0px 0px 5px;    
+}
+.chat-details {    
+    max-height:500px;   
+    overflow-y:auto; 
+}
+
+.chat-detail-content {
+    width:395px;    
+    /*background-color:#faf6d6;*/
+    padding:2px 3px 2px 2px;    
+}
+.chat-detail-senderinfo {
+    width:100%;
+    padding-right:5px;   
+    text-align:right;    
+}
+.chat-detail-senderinfo span {
+    font-family:'Microsoft YaHei', 'Arial';
+    font-size:12px;
+    color:#666;
+    text-align:right;
+    font-weight:500;
+    padding:0px 5px 0px;
+}
+li.chat-info {
+    background-color:#faf6d6;
+    border-bottom:1px dashed #ff6a00;
+    display:inline-block;    
+}
+.chat-user {
+    
+}
+.chat-time {
+    
+}
+
+.chat-active {
+    width:100%;
+    padding:10px 0px 0px 0px;
+}
+.chat-content {
+    width:340px;
+    height:36px;
+}
+.chat-send-event {
+    height:36px;
+    width:52px;
+}
